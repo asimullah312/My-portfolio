@@ -63,24 +63,4 @@ export const Footer = () => {
               <span>copyright.txt</span>
             </div>
             <div className="mt-2 space-y-1 text-xs">
-              <p>© {currentYear} DevOps & Cloud Engineer</p>
-              <p>Built with React, TypeScript, and Cyber Terminal Aesthetic</p>
-              <p className="text-primary-500">Status: Available for opportunities</p>
-            </div>
-          </div>
-
-          {/* Tech stack indicator */}
-          <div className="flex items-center space-x-4 text-xs font-mono text-neutral-500">
-            <span>Powered by:</span>
-            <div className="flex items-center space-x-2">
-              <span className="px-2 py-1 bg-neutral-800 rounded text-primary-500">React</span>
-              <span className="px-2 py-1 bg-neutral-800 rounded text-primary-500">TypeScript</span>
-              <span className="px-2 py-1 bg-neutral-800 rounded text-primary-500">Tailwind</span>
-              <span className="px-2 py-1 bg-neutral-800 rounded text-primary-500">Three.js</span>
-            </div>
-          </div>
-        </div>
-      </div>
-    </footer>
-  );
-};
+              <p>© {currentYear} Asim Ullah - DevOps Engineer
