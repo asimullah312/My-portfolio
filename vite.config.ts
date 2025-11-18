@@ -9,5 +9,8 @@ export default defineConfig({
       "@": path.resolve(__dirname, "./src"),
     },
   },
-  base: '/devops-portfolio123/',
+  base: '/',
+  build: {
+    outDir: 'dist'
+  }
 })
