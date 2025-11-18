@@ -9,7 +9,7 @@ export const Home = () => {
   const stats = [
     { label: 'Years Experience', value: '1+' },
     { label: 'Cloud Platforms', value: '2' },
-    { label: 'Projects Completed', value: '7+' },
+    { label: 'Projects Completed', value: '3+' },
     { label: 'Technologies', value: '19+' },
   ];
 
