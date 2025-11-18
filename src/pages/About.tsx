@@ -7,15 +7,15 @@ export const About = () => {
   const timeline = [
     {
       year: '2023 - Present',
-      title: 'Freelance DevOps & Cloud Engineer',
+      title: 'DevOps Engineer',
       company: 'Self-Employed',
-      description:
-        'Working on freelance projects focusing on cloud automation, CI/CD, and container orchestration using AWS, Docker, and Kubernetes.',
-      icon: Code,},
+      description: 'Working on DevOps projects focusing on cloud automation, CI/CD, and container orchestration using AWS, Docker, and Kubernetes.',
+      icon: Code,
+    },
     {
       year: '2019 - 2023',
       title: 'Computer Science Graduate',
-      company: 'CVR College Of Engineering',
+      company: 'University Of Engineering And Technology Peshawar',
       description: 'Bachelor\'s degree with focus on software engineering and cloud computing.',
       icon: Calendar,
     },
@@ -67,27 +67,24 @@ export const About = () => {
                 </div>
                 <div className="space-y-4 text-neutral-200 leading-relaxed">
                   <Typewriter
-                    text="Hello, I'm Neeraj Chandra Nakka, and I turn code into production reality."
+                    text="Hello, I'm Asim Ullah, and I turn code into production reality."
                     delay={30}
                     className="text-primary-500 font-semibold block mb-4"
                   />
                   <p>
-                    I design, automate, and deploy systems that turn code into production-grade reality. 
-                    My journey began with full-stack development—building web apps with Java, React, and Node.js.
+                    I am Asim Ullah, a passionate DevOps Engineer focused on building automated, scalable, and reliable infrastructure. 
+                    I specialize in Docker, Kubernetes, CI/CD pipelines, and cloud technologies.
                   </p>
                   <p>
-                    Over time, that foundation evolved into a passion for DevOps and Cloud Engineering, 
-                    where I now focus on crafting scalable infrastructure, clean CI/CD pipelines, and resilient deployments.
+                    With hands-on experience deploying real applications using Jenkins, Argo CD, and container orchestration, 
+                    I enjoy solving problems, optimizing workflows, and delivering efficient DevOps solutions.
                   </p>
                   <p>
-                    I work across AWS and Azure, orchestrate containers with Docker and Kubernetes, 
-                    and define infrastructure with Terraform and automation scripts. Behind the command line, 
-                    I'm equally comfortable in version control and workflow automation, using Git, GitHub, 
-                    and GitLab CI/CD to bridge collaboration and delivery.
+                    I work across AWS, orchestrate containers with Docker and Kubernetes, and define infrastructure with Terraform and Ansible. 
+                    Behind the command line, I'm equally comfortable in version control and workflow automation.
                   </p>
                   <p className="text-primary-500 font-medium">
-                    For me, DevOps isn't just about speed—it's about precision, repeatability, 
-                    and creating systems that empower developers to ship confidently and innovate faster.
+                    My goal is to grow into a strong industry-level DevOps Engineer and contribute to modern cloud-native teams.
                   </p>
                 </div>
               </div>
@@ -112,7 +109,7 @@ export const About = () => {
                   </div>
                   <div className="flex items-center justify-between">
                     <span className="text-neutral-400">Cloud Platforms</span>
-                    <span className="text-primary-500 font-mono">AWS, Azure</span>
+                    <span className="text-primary-500 font-mono">AWS, OCI</span>
                   </div>
                   <div className="flex items-center justify-between">
                     <span className="text-neutral-400">Projects</span>
@@ -159,7 +156,7 @@ export const About = () => {
               Career Timeline
             </h2>
             <p className="text-neutral-400 max-w-2xl mx-auto">
-              My journey from full-stack development to DevOps engineering
+              My journey from computer science to DevOps engineering
             </p>
           </motion.div>
 
@@ -171,7 +168,7 @@ export const About = () => {
               {timeline.map((item, index) => {
                 const IconComponent = item.icon;
                 const isEven = index % 2 === 0;
-                
+
                 return (
                   <motion.div
                     key={item.year}
